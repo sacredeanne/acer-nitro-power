@@ -26,3 +26,7 @@ The issue after this is that when I try to enable performance mode using ppd or 
 So you need to use tlp, and change the "PLATFORM_PROFILE_ON_AC" config line accordingly, and then it should work.
 
 <img width="438" height="62" alt="resim" src="https://github.com/user-attachments/assets/f6980f80-9216-4e9d-8523-055e8ff57336" />
+
+
+# Credits
+https://wiki.archlinux.org/title/Laptop/Acer#Mode_key_and_fan_speed_monitoring_are_not_working_for_some_gaming_laptops
