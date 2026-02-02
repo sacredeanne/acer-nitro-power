@@ -2,7 +2,7 @@
 While this guide probably won't harm your device, I am not responsible for any damage or if anything goes wrong
 
 # acer-nitro-power guide
-A guide to enable NitroSense-like profiles without third-party programs, and manage them with tlp
+A guide to enable NitroSense-like profiles without third-party programs
 
 # Tested and fully working on Acer Nitro ANV15-51 ✅
 <img width="1021" height="590" alt="resim" src="https://github.com/user-attachments/assets/aedcc04e-d65c-4ebb-bc37-34432a27078a" />
