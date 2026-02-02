@@ -23,6 +23,6 @@ If you have Turbo mode and/or the performance platform profile works, you're don
 # For laptops without turbo mode and/or performance platform profile doesn't work
 
 The issue after this is that when I try to enable performance mode using ppd or other similar software, I can't, since performance platform profile does not work on my laptop.
-So you need to use tlp, and change these config lines accordingly, and then it should work.
+So you need to use tlp, and change the "PLATFORM_PROFILE_ON_AC" config line accordingly, and then it should work.
 
 <img width="438" height="62" alt="resim" src="https://github.com/user-attachments/assets/f6980f80-9216-4e9d-8523-055e8ff57336" />
