@@ -17,7 +17,8 @@ platform profiles like quiet,balanced, etc.
 <img width="580" height="59" alt="resim" src="https://github.com/user-attachments/assets/b818c441-ddef-4a13-ac54-0dea4c18bd4b" />
 
 My laptop has these platform profiles exposed. Low-power and quiet are pretty self-explanatory, balanced is balanced but I believe the balanced-performance profile is
-the Performance mode on Windows as you cannot enable the performance platform profile on my laptop. I believe that corresponds to the Turbo mode that my laptop does not have. YMMV
+the Performance mode on Windows as you cannot enable the performance platform profile on my laptop. I believe that corresponds to the Turbo mode that my laptop does not have. YMMV.
+
 If you have Turbo mode and/or the performance platform profile works, you're done!
 # For laptops without turbo mode and/or performance platform profile doesn't work
 
