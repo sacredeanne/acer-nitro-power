@@ -11,6 +11,8 @@ A guide to enable NitroSense-like profiles without third-party programs
 If you have a laptop that doesn't support Turbo Mode on NitroSense, and your laptop is using NitroSense/PredatorSense >=v4 (like ANV15-51),
 you can use the tlp.conf that I provided in this repo. FYI powersave mode will trigger low-power platform profile, balanced will use quiet,
 and performance mode will use the balanced-performance platform profile.
+While I can't vouch for it, I believe that if your laptop supports Turbo Mode and you use default tlp or ppd (power-profiles-daemon),
+powersave will be low-power, balanced will be balanced, and performance mode will use the performance (Turbo) platform profile.
 
 # Introduction
 
@@ -37,5 +39,4 @@ So you need to use tlp, and change the "PLATFORM_PROFILE_ON_AC" config line acco
 
 
 # Credits
-https://wiki.archlinux.org/title/Laptop/Acer#Mode_key_and_fan_speed_monitoring_are_not_working_for_some_gaming_laptops
-The amazing linux kernel and acer_wmi developers
+https://wiki.archlinux.org/title/Laptop/Acer#Mode_key_and_fan_speed_monitoring_are_not_working_for_some_gaming_laptops and the amazing Linux kernel and acer_wmi developers
