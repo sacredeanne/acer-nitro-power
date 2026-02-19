@@ -8,6 +8,9 @@ A guide to enable NitroSense-like profiles without third-party programs
 <img width="1021" height="590" alt="resim" src="https://github.com/user-attachments/assets/aedcc04e-d65c-4ebb-bc37-34432a27078a" />
 
 # TL;DR
+First enable the "acer_wmi.predator_v4=1" kernel parameter.
+If you use grub you can do this on most distros by modifying /etc/default/grub (GRUB_CMDLINE_LINUX_DEFAULT="acer_wmi.predator_v4=1") and updating the grub config file (update-grub, grub-mkconfig -o /boot/grub/grub.cfg, etc.).
+If you don't use grub, look at your bootloader's documentation on how to do so.
 If you have a laptop that doesn't support Turbo Mode on NitroSense, and your laptop is using NitroSense/PredatorSense >=v4 (like ANV15-51),
 you can use the tlp.conf that I provided in this repo. FYI powersave mode will trigger low-power platform profile, balanced will use quiet,
 and performance mode will use the balanced-performance platform profile.
