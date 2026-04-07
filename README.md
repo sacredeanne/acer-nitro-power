@@ -10,23 +10,32 @@ A guide to enable NitroSense-like profiles without third-party programs
 
 # TL;DR
 --- If you have a laptop without Turbo Mode ---
-1-) Enable the "acer_wmi.predator_v4=1" kernel parameter.
-If you use grub you can do this on most distros by modifying /etc/default/grub (GRUB_CMDLINE_LINUX_DEFAULT="acer_wmi.predator_v4=1") and updating the grub config file (update-grub, grub-mkconfig -o /boot/grub/grub.cfg, etc.).
+
+1-) Enable the "acer_wmi.predator_v4=1" kernel parameter. If you use grub you can do this on most distros by modifying /etc/default/grub (GRUB_CMDLINE_LINUX_DEFAULT="acer_wmi.predator_v4=1") and updating the grub config file (update-grub, grub-mkconfig -o /boot/grub/grub.cfg, etc.).
+
 If you don't use grub, look at your bootloader's documentation on how to do so.
+
 2-) Install tlp and tlp-pd
+
 3-) Use the tlp.conf that I provided.
+
 4-) Done! power-saver profile will use low-power platform profile and limit cpu to 60%, balanced will be balanced mode and performance mode will use balanced-performance (performance mode on windows).
+
 --- If you have a laptop *with* Turbo Mode ---
-1-) Enable the "acer_wmi.predator_v4=1" kernel parameter.
-If you use grub you can do this on most distros by modifying /etc/default/grub (GRUB_CMDLINE_LINUX_DEFAULT="acer_wmi.predator_v4=1") and updating the grub config file (update-grub, grub-mkconfig -o /boot/grub/grub.cfg, etc.).
+
+1-) Enable the "acer_wmi.predator_v4=1" kernel parameter. If you use grub you can do this on most distros by modifying /etc/default/grub (GRUB_CMDLINE_LINUX_DEFAULT="acer_wmi.predator_v4=1") and updating the grub config file (update-grub, grub-mkconfig -o /boot/grub/grub.cfg, etc.).
+
 If you don't use grub, look at your bootloader's documentation on how to do so.
+
 2-) Use power-profiles-daemon or tlp
+
 3-) Done!
 
 # For people who are curious
 NitroSense-like functionality already exists in the acer_wmi driver, but it isn't enabled by default.
 If your hardware uses predator/nitrosense >=v4 on Windows, and you enable the "acer_wmi.predator_v4=1" kernel parameter, you can now monitor your fan speed and enable
-platform profiles like quiet,balanced, etc. 
+platform profiles like quiet,balanced, etc.
+
 <img width="580" height="59" alt="resim" src="https://github.com/user-attachments/assets/b818c441-ddef-4a13-ac54-0dea4c18bd4b" />
 
 My laptop has these platform profiles exposed. Low-power and quiet are pretty self-explanatory, balanced is balanced but I believe the balanced-performance profile is
